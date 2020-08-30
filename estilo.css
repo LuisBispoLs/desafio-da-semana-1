@@ -1,0 +1,76 @@
+body{margin:0;}
+/*O body já tem uma margenzinha*/
+
+/*Imagem grudada em cima*/
+.box_image1 {
+    position: relative;
+}
+#image1 {
+    position: absolute;
+    width: 100%;
+    height: 460px;
+}
+#frase {
+    position: absolute;
+    font-size: 50px;
+    left: 37%;
+    right: 5%;
+    top: 190px;
+    text-align: justify;
+    letter-spacing: 3px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+#autor{    
+    position: absolute;
+    font-size: 28px;
+    left: 80%;
+    top: 300px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+/*------------------------------------------------------------------------------------------------*/
+
+
+/*Texto linkado com o ODS*/
+#box_titulo{
+    padding: 550px 40px 90px 40px;
+    text-align: center;    
+}
+#titulo{
+    font-size: 35px;
+    text-align: center;
+}
+#ods2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 59);
+    text-shadow: 0px 0px 4px rgba(0, 0, 255, 0.555);
+    text-decoration: solid;
+}
+/*------------------------------------------------------------------------------------------------*/
+
+
+/*Imagem grudada la em baixo*/
+.box_image2 {
+    position: relative;
+}
+#image2 {
+    position: absolute;
+    width: 100%;
+    height: 1850px;
+}
+#texto2 {
+    position: absolute;
+    font-size: 30px;
+    left: 60px;
+    right: 60px;
+    top: 50px;
+    text-align: start;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-indent: 30px;
+}
+/*------------------------------------------------------------------------------------------------*/
